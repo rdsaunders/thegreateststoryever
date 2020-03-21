@@ -2,9 +2,9 @@
 
 <main >
 		<div class="catalogue">
-				{{ range .Pages }}
-						{{ .Render "summary" }}
-				{{ end }}
+			{{ range (.Pages.ByParam "order") }}
+				{{ .Render "summary" }}
+			{{ end }}
 			</div>
 		
 	</div>
