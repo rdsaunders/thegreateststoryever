@@ -9,11 +9,11 @@ fields:
   hidden: true
 - type: text
   name: languageCode
-  label: languageCode
+  label: Language Code
   default: en
 - type: text
   name: title
-  label: title
+  label: Title
   default: The Blog Title
 - type: text
   name: theme
