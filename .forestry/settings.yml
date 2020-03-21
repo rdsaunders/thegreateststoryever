@@ -8,7 +8,7 @@ sections:
   label: Content
 - type: document
   path: content/about/info.md
-  label: Info Page
+  label: Information
 - type: directory
   path: content/blog-posts
   label: Posts
@@ -18,15 +18,15 @@ sections:
   - blog
 - type: document
   path: content/data/authors.yaml
-  label: Authors List
+  label: Authors
 - type: heading
   label: Config
 - type: document
   path: themes/tale-theme/data/Settings.toml
-  label: Design Settings
+  label: Design settings
 - type: document
   path: config.toml
-  label: Site Config
+  label: Site configuration
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
