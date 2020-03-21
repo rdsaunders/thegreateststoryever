@@ -1,5 +1,5 @@
 ---
-label: Blog Post
+label: Story
 hide_body: false
 fields:
 - type: text
@@ -25,13 +25,13 @@ fields:
 - type: text
   name: type
   label: type
-  default: blog
+  default: story
   hidden: true
 - type: file
   name: hero
   label: Hero Image
 pages:
-- content/blog-posts/Walking.md
-- content/blog-posts/geneology-of-morals.md
-- content/blog-posts/self-reliance.md
-- content/blog-posts/sunflower-sutra.md
+- content/stories/Walking.md
+- content/stories/geneology-of-morals.md
+- content/stories/self-reliance.md
+- content/stories/sunflower-sutra.md

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-type: "blog"
+type: "story"
 draft: false
 author: "Kendall"
 hero: "https://source.unsplash.com/random"

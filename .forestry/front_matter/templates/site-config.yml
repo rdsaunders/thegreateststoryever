@@ -14,7 +14,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: The Blog Title
+  default: The site title
 - type: text
   name: theme
   label: theme
