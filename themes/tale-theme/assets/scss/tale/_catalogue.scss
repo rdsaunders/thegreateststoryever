@@ -1,7 +1,7 @@
 .catalogue {
   .catalogue-hero {
     margin-bottom: 0;
-    height: 33vh;
+    height: 25vh;
     overflow: hidden;
     background-color: #000;
     img {
@@ -16,7 +16,7 @@
   }
   &-item {
     display: block;
-    min-height: 38vh;
+    //min-height: 38vh;
   }
   &-info {
     border-bottom: 1px solid $white-2;
@@ -42,7 +42,7 @@
     }
     .catalogue-item {
       display: flex;
-      height: 33.3333vh;
+      height: 25vh;
       overflow: hidden;
       min-height: 0;
     }

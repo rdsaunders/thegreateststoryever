@@ -3,7 +3,7 @@
 <main>
 	<div class="catalogue">
 		{{ $aboutTitle := "About" }}
-			{{ range .Pages }}
+			{{ range (.Pages.ByParam "order") }}
 				{{if not (eq .Title $aboutTitle) }}
 					{{ .Render "summary" }}
 				{{end}}

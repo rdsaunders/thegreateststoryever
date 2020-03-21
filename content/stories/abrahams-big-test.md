@@ -7,3 +7,8 @@ video: ''
 order: 5
 ---
 
+## Bible verse
+
+## Prayer
+
+## Activity
