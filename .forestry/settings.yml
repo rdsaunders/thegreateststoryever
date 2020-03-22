@@ -15,7 +15,7 @@ sections:
   - story
 - type: document
   path: content/about/info.md
-  label: Information
+  label: About
 - type: document
   path: content/data/authors.yaml
   label: Authors
