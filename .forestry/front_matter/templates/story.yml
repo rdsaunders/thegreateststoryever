@@ -6,6 +6,18 @@ fields:
   name: title
   label: Title
   default: default
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- type: file
+  name: hero
+  label: Hero Image
 - name: author
   type: select
   default: []
@@ -27,15 +39,3 @@ fields:
   label: type
   default: story
   hidden: true
-- type: file
-  name: hero
-  label: Hero Image
-- name: summary
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Summary
