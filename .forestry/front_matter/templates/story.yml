@@ -30,3 +30,12 @@ fields:
 - type: file
   name: hero
   label: Hero Image
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
