@@ -2,11 +2,11 @@
         {{ partial "single/list-hero.html" . }}
     <div class="catalogue-info">  
         <h2 class="catalogue-title">{{ .Title }}</h2>
-        {{- if .PublishDate }}
+        {{/*  {{- if .PublishDate }}
         <h3 class="catalogue-time">
             {{ i18n "publishdate" . }}
         </h3>
-        {{ end }}
+        {{ end }}  */}}
         <p class="catalogue-summary">
             {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
         </p>
