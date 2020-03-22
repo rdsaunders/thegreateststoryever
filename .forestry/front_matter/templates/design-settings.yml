@@ -4,17 +4,17 @@ hide_body: true
 fields:
 - name: primary_color
   type: color
-  label: Info Page - Background Color
+  label: Info Page - Background Colour
   config:
     required: false
     color_format: Hex
-  description: Adjust the background color of the info page
+  description: Adjust the background colour of the info page
   default: "#B1BCBC"
 - name: text_color
   type: color
-  label: Info Page - Text Color
+  label: Info Page - Text Colour
   config:
-    required: false
+    required: falses
     color_format: Hex
   description: Enter text color for info page
 pages:

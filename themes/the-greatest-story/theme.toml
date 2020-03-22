@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "The Greatest Story"
+license = "MIT"
+licenselink = "https://github.com/rdsaunders/the-greatest-story/blob/master/LICENSE"
+description = "A theme for the bible course"
+homepage = "https://github.com/EmielH/tale-hugo"
+tags = ["minimal", "clean", "responsive", "simple", "personal", "blog", "starter", "light", "typography"]
+features = ["pagination"]
+min_version = "0.01"
+
+[author]
+  name = "Richard Saunders"
+  homepage = "https://www.rdsaunders.co.uk"
