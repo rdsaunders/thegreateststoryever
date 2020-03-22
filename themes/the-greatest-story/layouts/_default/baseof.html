@@ -5,7 +5,7 @@
     {{if (eq .Title $aboutTitle) }}
         {{ $bg := .Site.Data.Settings.primary_color}}
         {{ $textColor := .Site.Data.Settings.text_color}}
-        <body style="background-color: {{ $bg }}; color: {{ $textColor }};">
+        <body>
             {{ partial "header.html" . }}
             {{ block "main" . }}{{ end }}
         </body>

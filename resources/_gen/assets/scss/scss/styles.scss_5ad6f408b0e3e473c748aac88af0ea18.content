@@ -1122,10 +1122,15 @@ pre code {
   width: 80%; }
 
 .nav {
+  background-color: #464749;
+  color: #EBEBEB;
   border-bottom: 1px solid #EBEBEB;
   padding: 1.5rem 1.25rem; }
   .nav h1 {
-    margin-bottom: 0; }
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #fed90a; }
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -1141,7 +1146,6 @@ pre code {
     top: 0;
     padding: 2rem;
     width: 30%;
-    border-right: 1px solid #EBEBEB;
     border-bottom: none;
     flex-direction: column;
     align-items: flex-start; }
