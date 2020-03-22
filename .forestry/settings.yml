@@ -6,21 +6,21 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: document
-  path: content/about/info.md
-  label: Information
 - type: directory
   path: content/stories
-  label: Posts
+  label: Stories
   create: all
   match: "**/*"
   templates:
   - story
 - type: document
+  path: content/about/info.md
+  label: Information
+- type: document
   path: content/data/authors.yaml
   label: Authors
 - type: heading
-  label: Config
+  label: Configuration
 - type: document
   path: themes/tale-theme/data/Settings.toml
   label: Design settings
